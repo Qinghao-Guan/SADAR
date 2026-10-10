@@ -211,39 +211,7 @@ The error analysis motivates stricter output schemas, validation, more selective
 
 ### Access to annotations and code
 
-**To be completed by the repository maintainers:** Add the actual dataset filenames, download location, availability statement, data-use conditions, and code entry points here. Do not treat the illustrative JSON in this README as an exported dataset file or infer a train/test split not described in the manuscript.
-
-### Reproducing the reported evaluation
-
-Once the research files are released, a reproducible workflow should document how to:
-
-1. Obtain the **authorized** annotated data and its data dictionary.
-2. Use the **exact prompt versions** from the experiment, including the 24-category vocabulary and output schema.
-3. Record **precise model IDs/checkpoints**, provider or Ollama versions, and any other generation settings (temperature was reported as `0`).
-4. Generate and archive model outputs for the same evaluation examples.
-5. Run the **released scoring implementation** to calculate precision, recall, and F1 under its specified matching and normalization rules.
-6. Compare the resulting metrics with the nine reported model rows above, documenting any differences.
-
-**No executable setup commands are provided here because the uploaded manuscript does not identify a verified `requirements.txt`, environment file, CLI interface, or runnable evaluation script.** Add tested commands after the corresponding files exist in the repository.
-
-## Recommended repository structure
-
-The following is a **suggested layout**, not a claim that the research files already exist. Rename folders to match the actual release:
-
-```text
-SADAR/
-├── README.md
-├── assets/
-│   └── category_distribution.png      # Included with this README package
-├── data/                               # Add only data authorized for distribution
-├── taxonomy/                           # Category definitions and mappings
-├── prompts/                            # Exact prompts used in the experiments
-├── src/                                # Preprocessing, inference, and evaluation code
-├── results/                            # Model outputs and evaluation summaries
-└── paper/                              # Manuscript and supplementary materials
-```
-
-For a usable research release, the `data/` documentation should specify column types, review IDs, multi-quadruple representation, empty/missing-value conventions, encoding (UTF-8 recommended for Chinese), provenance, and available partitions. The `results/` documentation should state model versions and the metric definitions used.
+The dataset can be found in [`SADAR_dataset/ABSA_human.json`](SADAR_dataset/ABSA_human.json).
 
 ## Limitations and responsible use
 
