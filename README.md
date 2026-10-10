@@ -262,26 +262,18 @@ If you use SADAR, please cite the accompanying manuscript. Its title in the supp
 
 > *Mining E-dictionary App-store Reviews for Lexicographic Insight: The SADAR Benchmark Dataset and the Limits of LLMs.*
 
-**Citation metadata still needed:** Verified author list, publication status, venue/proceedings details, and DOI or persistent URL. The manuscript is formatted for AAAI 2026, but the provided PDF alone does not establish acceptance or publication.
-
-A BibTeX **template** to complete after publication metadata is confirmed:
-
 ```bibtex
 @misc{sadar_benchmark_2026,
   title = {Mining E-dictionary App-store Reviews for Lexicographic
            Insight: The SADAR Benchmark Dataset and the Limits of LLMs},
-  author = {{REPLACE WITH VERIFIED AUTHOR LIST}},
+  author = {Guan, Q, Chen, X., Pan, Y.},
   year = {2026},
-  note = {Replace with verified venue, publication status, and URL/DOI}
 }
 ```
 
 ## License and contact
 
-**License:** **Not specified in the supplied manuscript.** The repository maintainers should add an appropriate `LICENSE` file and separate data-use terms if the source reviews and annotations have different redistribution conditions. **Do not infer that public GitHub hosting makes the underlying review text freely reusable.**
+**License:** **CC.BY 4.0**
 
-**Contact:** Add the corresponding author's verified contact details or use the repository's issue tracker after it is enabled. Please avoid posting private review information in public issues.
+**Contact:** Qinghao Guan (q.guan@ikmz.uzh.ch)
 
----
-
-*This README documents the SADAR research described in the supplied manuscript. Repository links, distribution permissions, and reproducibility commands must be verified against the actual public release.*
